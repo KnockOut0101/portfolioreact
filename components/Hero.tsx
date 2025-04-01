@@ -19,15 +19,15 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
                 <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                    Dynamic Web Magic with Next.js
+                    The standard you walk past is the standard you accept.
                 </h2>
 
                 <TextGenerateEffect
-                    className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words=" Transforming Concepts into Seamless Experiences"
+                    className='text-center text-[32px] md:text-5xl lg:text-6xl uppercase'
+                    words="Welcome to my Portfolio Website"
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white'>
-                    Hi, I&apos;m Kshitij, a FullStack Developer from Noida
+                    Hi, I&apos;m Kshitij, a Software Engineer from Noida
                 </p>
 
                 <a href='#about'>
