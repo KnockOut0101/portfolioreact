@@ -8,9 +8,9 @@ import { PinContainer } from "./ui/3d-pin";
 const RecentProjects = () => {
   return (
     <div className="py-20">
-      <h1 className="text-lg lg:text-3xl text-white font-bold">
-        A small selection of{" "}
-        <span className="text-purple-300">recent projects</span>
+      <h1 className="heading text-3xl md:text-6xl sm:text-6xl text-wrap text-white font-bold gap-x-2">
+        Some of things<br/> 
+        <span className="text-purple-300">I have worked on</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -41,7 +41,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 overflow-ellipsis"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -50,7 +50,7 @@ const RecentProjects = () => {
                 {item.des}
               </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3">
+              {/* <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div
@@ -69,9 +69,9 @@ const RecentProjects = () => {
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple-300">
                     Check Live Site
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#CBACF9"/>
                 </div>
-              </div>
+              </div> */}
             </PinContainer>
           </div>
         ))}

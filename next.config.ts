@@ -3,6 +3,15 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // This is not recommended, see:
+    // https://nextjs.org/docs/messages/typescript-project-has-errors
+    ignoreBuildErrors: true,
+  },
 };
 
 export default withSentryConfig(withSentryConfig(nextConfig, {

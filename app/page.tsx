@@ -7,6 +7,10 @@ import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 import { navItems } from "@/data";
 import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
+import App from "next/app";
+import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +22,9 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Clients />
+        <Experience />
+        <Approach />
+        <Footer />
         {/* <GlobeDemo /> */}
       </div>
     </main>
