@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading text-3xl md:text-6xl sm:text-6xl text-wrap text-white font-bold gap-x-2">
         Some of things<br/> 
         <span className="text-purple-300">I have worked on</span>
