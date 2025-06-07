@@ -3,12 +3,12 @@ import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import RecentProjects from "@/components/RecentProjects";
 // import { GlobeDemo } from "@/components/ui/GridGlobe";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
+// import Image from "next/image";
+// import { FaHome } from "react-icons/fa";
 import { navItems } from "@/data";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
-import App from "next/app";
+// import App from "next/app";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 
