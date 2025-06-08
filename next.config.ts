@@ -49,7 +49,7 @@ automaticVercelMonitors: true,
 // https://www.npmjs.com/package/@sentry/webpack-plugin#options
 
 org: "kshitij-ohri",
-project: "javascript-nextjs",
+project: "Portfolio",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
