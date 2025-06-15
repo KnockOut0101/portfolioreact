@@ -23,7 +23,7 @@ const Footer = () => {
           Like what you see or have a project in mind? Let's connect and
           explore how we can work together to bring your ideas to life.
         </p>
-        <a href="/https://in.linkedin.com/in/kshitij-ohri-911980103?original_referer=https%3A%2F%2Fwww.linkedin.com%2F">
+        <a href="https://in.linkedin.com/in/kshitij-ohri-911980103?original_referer=https%3A%2F%2Fwww.linkedin.com%2F">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
