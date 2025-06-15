@@ -78,7 +78,7 @@ export const navItems = [
       des: "Implemented an Augmented Reality projection of a room on a phone using Unity",
       img: "/MyProjects/AR_Project.jpg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://youtu.be/Su8XBDcgAx4",
+      link: "/https://youtu.be/Su8XBDcgAx4",
     },
     {
       id: 2,
@@ -86,7 +86,7 @@ export const navItems = [
       des: "A deep learning project implementing the AlexNet architecture for image path identification using PyTorch.",
       img: "/MyProjects/AlexNetDemonstration.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://youtu.be/coPOkgF5Nt0",
+      link: "/https://youtu.be/coPOkgF5Nt0",
     },
     {
       id: 3,
@@ -94,7 +94,7 @@ export const navItems = [
       des: "Created a Unity project to visualize the A* pathfinding algorithm, showcasing its efficiency in finding optimal paths.",
       img: "/MyProjects/AStarMapNavigation.jpg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://youtu.be/dOmV9VoE0AE",
+      link: "/https://youtu.be/dOmV9VoE0AE",
     },
     {
       id: 4,
@@ -102,7 +102,7 @@ export const navItems = [
       des: "Created a first-person shooter game using Unity, implementing various game mechanics and features.",
       img: "/MyProjects/BoxShooter.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://youtu.be/JI-C5I4RIpY",
+      link: "/https://youtu.be/JI-C5I4RIpY",
     },
   ];
   
