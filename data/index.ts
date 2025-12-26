@@ -210,13 +210,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/KnockOut0101"
     },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    //   link: "https://twitter.com/KnockOut0101" //ADD WHEN YOU ARE ON TWITTER
+    // },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
-      img: "/link.svg",
+      img: "/instagram.svg",
+      link: "https://www.instagram.com/kshitijohri/"
     },
   ];
