@@ -10,8 +10,8 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Hi, I'm a guy who's always been intrigued by tech and it's related aspects ",
-      description: "Explore more to know more about me",
+      title: "Hi, I'm someone who's always been intrigued by tech and its related aspects.",
+      description: "Explore to learn more about me",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 min-[690px]:max-[690px]:col-span-5 lg:min-h-[60vh] sm:col-span-6 sm:row-span-5",
       imgClassName: "w-full h-full -z-0",
       titleClassName: "justify-end",
@@ -20,8 +20,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm a persona with varied interests, from tech to art.",
-      description: "I have a various interests other than tech, let's connect over coffee?",
+      title: "I'm a person with varied interests, from tech to art.",
+      description: "I have various interests beyond tech. Let's connect over coffee",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -31,7 +31,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "I'm constantly improving",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -48,10 +48,10 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
+
     {
       id: 5,
-      title: "Currently Seeing what I can build next",
+      title: "Currently exploring what to build next",
       description: "It may be a game, a web app, or something else entirely.",
       className: "lg:col-span-3 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -61,7 +61,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Want to talk more with me?",
+      title: "Want to talk?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
