@@ -23,7 +23,7 @@ const Hero = () => {
                 </h2>
 
                 <TextGenerateEffect
-                    className='text-center text-[32px] md:text-5xl lg:text-6xl uppercase'
+                    className='text-center text-[32px] md:text-5xl lg:text-6xl uppercase text-white'
                     words="Welcome to my Portfolio Website"
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white'>
